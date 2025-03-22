@@ -107,8 +107,7 @@ $(call inherit-product, vendor/lineage/config/bootanimation.mk)
 PRODUCT_PACKAGES += \
     LineageParts \
     LineageSettingsProvider \
-    LineageSetupWizard \
-    Updater
+    LineageSetupWizard
 
 # Themes
 PRODUCT_PACKAGES += \
