@@ -14,6 +14,10 @@ PRODUCT_PACKAGES += \
     Profiles \
     Seedvault
 
+# Lemonage packages
+PRODUCT_PACKAGES += \
+    Hail
+
 ifneq ($(TARGET_EXCLUDES_AUDIOFX),true)
 PRODUCT_PACKAGES += \
     AudioFX
