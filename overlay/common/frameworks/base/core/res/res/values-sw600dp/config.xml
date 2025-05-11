@@ -18,6 +18,11 @@
 <!-- These resources are around just to allow their values to be customized
      for different hardware and product builds. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- Set to true to enable the user switcher on the keyguard. -->
     <bool name="config_keyguardUserSwitcher">false</bool>
+
+    <!-- Disable lockscreen rotation by default -->
+    <bool name="config_enableLockScreenRotation">false</bool>
+
 </resources>
